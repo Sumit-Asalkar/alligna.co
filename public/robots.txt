@@ -1,0 +1,6 @@
+User-agent: *
+Disallow: /
+
+# Draft site is kept out of search indexes. Replace this file at approved launch
+# with Allow: / and a sitemap reference:
+# Sitemap: https://alignaa.co/sitemap.xml

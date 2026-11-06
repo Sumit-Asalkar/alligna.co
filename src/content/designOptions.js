@@ -1,0 +1,67 @@
+export const DESIGN_OPTIONS = {
+  a: {
+    id: 'a',
+    label: 'Option A: Video first',
+    shortLabel: 'Option A',
+    tagline: 'Wide background-video hero with overlay copy, image-and-inclusions offer, clean grids & visual timeline.',
+    badge: 'Primary Baseline',
+    sectionOrder: [
+      '1. Video Hero (Full-bleed wide video with overlay text & play/pause)',
+      '2. Treatment Offer (2-column layout: product visual + inclusion checklist)',
+      '3. How It Works (4 connected circular step nodes on desktop, vertical on mobile)',
+      '4. Teeth Concerns (6 illustrated concern cards + Learn More modal)',
+      '5. Real Results (Before/after carousel with category filter tabs: Gap closure, Forward, Crowding)',
+      '6. Pricing (₹39,999 baseline offer & inclusions summary card)',
+      '7. Comparison Table (Row-based comparison: Alignaa vs Traditional braces)',
+      '8. Why Alignaa (4-card core benefits grid)',
+      '9. Patient Stories (Review carousel with sample content draft tags)',
+      '10. FAQs (Accordion covering clear aligners, assessment, process, pricing, EMI, care)',
+      '11. Single Patient Enquiry Form (#enquiry)',
+    ],
+    rationale:
+      'Implements the exact SmileSet + Toothsi hybrid layout requested in Version 1.1 brief. Maximises visual engagement through continuous video movement while maintaining an uncluttered, modern aesthetic. Ideal as the primary candidate for launch.',
+  },
+  b: {
+    id: 'b',
+    label: 'Option B: Clinical & structured',
+    shortLabel: 'Option B',
+    tagline: 'Video hero with structured copy panel, compact clinical benefits upfront, prominent process & case results.',
+    badge: 'Clinical Focus',
+    sectionOrder: [
+      '1. Structured Video Hero (Video background with elevated doctor-prescribed copy panel & key metrics)',
+      '2. Clinical Benefits Grid (4 compact cards upfront: Personalised, Doctor-led, Support, Removable)',
+      '3. Prominent Clinical Process (4-step diagnostic-to-treatment workflow with clear numbered milestones)',
+      '4. Clinical Results Showcase (Case evidence with duration, aligner counts & PDF data)',
+      '5. Treatment Offer & Inclusions (Inclusion checklist + ₹39,999 baseline)',
+      '6. Teeth Concerns (6 illustrated cards with clinical descriptions + Learn More modal)',
+      '7. Clinical Comparison (Detailed table comparing aligners against metal braces)',
+      '8. Patient Experiences (Sample reviews)',
+      '9. Clinical FAQs (Accordion covering clinician oversight, scan types & retainers)',
+      '10. Single Patient Enquiry Form (#enquiry)',
+    ],
+    rationale:
+      'Structured for patients who seek medical reassurance and doctor oversight first. Elevates clinical credentials and the 4-step treatment planning process immediately below the hero to build immediate trust before presenting commercial details.',
+  },
+  c: {
+    id: 'c',
+    label: 'Option C: Patient story led',
+    shortLabel: 'Option C',
+    tagline: 'Lifestyle-focused video hero, real results & patient stories carousel upfront, transformation-focused flow.',
+    badge: 'Empathy & Proof',
+    sectionOrder: [
+      '1. Patient Story Video Hero (Lifestyle footage with emotional hook & quick reassurance pills)',
+      '2. Real Results & Transformations (Placed immediately below hero for instant visual proof)',
+      '3. Patient Stories Carousel (Testimonials & peer experiences elevated upfront)',
+      '4. Treatment Offer & Inclusions (Clear ₹39,999 offer + 5 verified inclusions)',
+      '5. Teeth Concerns Selector ("What would you like to improve?" cards + modal)',
+      '6. How It Works (Simple 4-step journey from enquiry to treatment)',
+      '7. Why Alignaa (4 key patient benefits)',
+      '8. Pricing & Comparison Table (Reassuring pricing & aligners vs braces)',
+      '9. Frequently Asked Questions (Accordion)',
+      '10. Single Patient Enquiry Form (#enquiry)',
+    ],
+    rationale:
+      'Focuses on patient empathy, relatable transformations, and social proof. By showcasing results and patient experiences upfront, it directly addresses smile anxiety and guides hesitant patients toward requesting a scan with high confidence.',
+  },
+}
+
